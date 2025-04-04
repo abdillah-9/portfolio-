@@ -1,0 +1,25 @@
+1)Clone repo
+--> git clone <repository url>
+
+2)Sending changes to the github repo from local repo
+step 1. check status ... optional
+-> git status
+
+step 2.stage the changes (make them ready to be sent)
+-> git add .
+OR you can specify files by using 
+-> git add filename.py
+
+step 3. commit the changes 
+-> git commit -m "Your commit message here"
+
+step 4. push the changes
+-> git push origin main
+OR git push origin master if its not main branch
+
+Summary of Commands:
+git add . – Stages all changes.
+
+git commit -m "message" – Commits the changes with a message.
+
+git push origin main – Pushes the changes to your GitHub repository.
